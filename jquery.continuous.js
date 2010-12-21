@@ -1,6 +1,6 @@
 /*
  * Continuous (for jQuery)
- * version: 0.2 (12/14/2010)
+ * version: 0.3 (12/21/2010)
  * @requires jQuery v1.3 or later
  *
  * Examples at http://jeffrafter.github.com/jquery.continuous
@@ -10,7 +10,7 @@
  *
  * Copyright 2010 James Golick
  *
- * Addtional Copyright 2010 Jeff Rafter
+ * Additional changes 2010 Jeff Rafter
  *
  * Allows a container or window to automatically load additional content as
  * the user scrolls down.
@@ -89,12 +89,12 @@
     area: window
   };
 
-  var Continuous = function(container, userOptions) {
+  var Continuous = function(target, userOptions) {
     var options     = {};
     $.extend(options, defaults, userOptions);
     
     var self        = this;
-    var container   = $(container);
+    var container   = $(target);
     var distance    = options.distance;
     var area        = options.area;
 

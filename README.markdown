@@ -82,5 +82,5 @@ Copyright
 ---------
 Copyright 2010 James Golick
 
-Addtional Copyright 2010 Jeff Rafter
+Additional changes 2010 Jeff Rafter
 
