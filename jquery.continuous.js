@@ -1,6 +1,6 @@
 /*
  * Continuous (for jQuery)
- * version: 0.3 (12/21/2010)
+ * version: 0.3.0 (12/21/2010)
  * @requires jQuery v1.3 or later
  *
  * Examples at http://jeffrafter.github.com/jquery.continuous
